@@ -1,0 +1,316 @@
+[
+    {
+        "id": 1,
+        "title": "Ready for a getaway weekend", 
+        "sub-title": "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor.",
+        "post": [
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. ",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros."
+        ],
+        "quote": "Venenatis faucibus. Nullam co ante. Curabitur ullam corper ultricies vitae nisi etiam sit amet. Orci eget eros sapien ut libero?",
+        "category": "Inspiration", 
+        "date": "March 1, 2021", 
+        "tags": [
+            "art",
+            "design"
+        ], 
+        "featured": "yes",
+        "author": "Jane Doe", 
+        "image": [
+            "https://zoya.qodeinteractive.com/wp-content/uploads/2021/03/blog-img-8.jpg",
+            "https://zoya.qodeinteractive.com/wp-content/uploads/2021/04/blog-content-img-3.jpg", 
+            "https://img.freepik.com/free-photo/aerial-view-man-using-computer-laptop-wooden-table-workspace-concept_53876-20517.jpg?ga=GA1.1.108249198.1729259417&semt=ais_hybrid"
+        ]
+    }, 
+    {
+        "id": 2,
+        "title": "Discovering hidden gems in the city", 
+        "sub-title": "Exploring the unseen parts of urban life.",
+        "post": [
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. "
+        ],
+        "quote": "Life is either a daring adventure or nothing at all.",
+        "category": "Travel", 
+        "date": "April 15, 2021", 
+        "tags": [
+            "lifestyle",
+            "DIY"
+        ], 
+        "featured": "no",
+        "author": "John Smith", 
+        "image": [
+            "https://zoya.qodeinteractive.com/wp-content/uploads/2021/04/blog-img-1.jpg", 
+            "https://zoya.qodeinteractive.com/wp-content/uploads/2021/04/blog-content-img-3.jpg", 
+            "https://img.freepik.com/free-photo/aerial-view-man-using-computer-laptop-wooden-table-workspace-concept_53876-20517.jpg?ga=GA1.1.108249198.1729259417&semt=ais_hybrid"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "A journey through the mountains", 
+        "sub-title": "Experience the beauty of nature and adventure.",
+        "post": [
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. "
+        ],
+        "quote": "The mountains are calling and I must go.",
+        "category": "Travel", 
+        "date": "May 10, 2021", 
+        "tags": [
+            "Decor",
+            "Blog"
+        ], 
+        "featured": "no",
+        "author": "Emily Davis", 
+        "image": [
+            "https://zoya.qodeinteractive.com/wp-content/uploads/2021/03/blog-img-8.jpg",
+            "https://zoya.qodeinteractive.com/wp-content/uploads/2021/04/blog-content-img-3.jpg", 
+            "https://img.freepik.com/free-photo/aerial-view-man-using-computer-laptop-wooden-table-workspace-concept_53876-20517.jpg?ga=GA1.1.108249198.1729259417&semt=ais_hybrid"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "10 tips for a balanced lifestyle", 
+        "sub-title": "Finding harmony in work and play.",
+        "post": [
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. "
+        ],
+        "quote": "Balance is not something you find, it's something you create.",
+        "category": "Lifestyle", 
+        "date": "June 20, 2021", 
+        "tags": [
+            "inspiration",
+            "style"
+        ], 
+        "featured": "no",
+        "author": "Sarah Johnson", 
+        "image": [
+            "https://zoya.qodeinteractive.com/wp-content/uploads/2021/03/blog-img-9.jpg",
+            "https://zoya.qodeinteractive.com/wp-content/uploads/2021/04/blog-content-img-3.jpg", 
+            "https://img.freepik.com/free-photo/aerial-view-man-using-computer-laptop-wooden-table-workspace-concept_53876-20517.jpg?ga=GA1.1.108249198.1729259417&semt=ais_hybrid"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "The art of mindfulness", 
+        "sub-title": "Incorporating mindfulness into daily life.",
+        "post": [
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. "
+        ],
+        "quote": "Mindfulness isn’t difficult, we just need to remember to do it.",
+        "category": "Inspiration", 
+        "date": "July 30, 2021", 
+        "tags": [
+            "style",
+            "DIY"
+        ], 
+        "featured": "yes",
+        "author": "David Lee", 
+        "image": [
+            "https://zoya.qodeinteractive.com/wp-content/uploads/2021/03/blog-img-10.jpg",
+            "https://zoya.qodeinteractive.com/wp-content/uploads/2021/04/blog-content-img-3.jpg", 
+            "https://img.freepik.com/free-photo/aerial-view-man-using-computer-laptop-wooden-table-workspace-concept_53876-20517.jpg?ga=GA1.1.108249198.1729259417&semt=ais_hybrid"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Traveling on a budget", 
+        "sub-title": "Explore the world without breaking the bank.",
+        "post": [
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. "
+        ],
+        "quote": "Travel is the only thing you buy that makes you richer.",
+        "category": "Travel", 
+        "date": "August 12, 2021", 
+        "tags": [
+            "technology",
+            "travel"
+        ], 
+        "featured": "no",
+        "author": "Anna Smith", 
+        "image": [
+            "https://zoya.qodeinteractive.com/wp-content/uploads/2021/01/blog-img-5.jpg",
+            "https://zoya.qodeinteractive.com/wp-content/uploads/2021/04/blog-content-img-3.jpg", 
+            "https://img.freepik.com/free-photo/aerial-view-man-using-computer-laptop-wooden-table-workspace-concept_53876-20517.jpg?ga=GA1.1.108249198.1729259417&semt=ais_hybrid"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Cooking healthy at home", 
+        "sub-title": "Easy recipes for a healthier lifestyle.",
+        "post": [
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. "
+        ],
+        "quote": "Let food be thy medicine and medicine be thy food.",
+        "category": "Lifestyle", 
+        "date": "September 22, 2021", 
+        "tags": [
+            "health",
+            "lifestyle"
+        ], 
+        "featured": "yes",
+        "author": "Michael Brown", 
+        "image": [
+            "https://zoya.qodeinteractive.com/wp-content/uploads/2020/11/blog-img-49.jpg",
+            "https://zoya.qodeinteractive.com/wp-content/uploads/2021/04/blog-content-img-3.jpg", 
+            "https://img.freepik.com/free-photo/aerial-view-man-using-computer-laptop-wooden-table-workspace-concept_53876-20517.jpg?ga=GA1.1.108249198.1729259417&semt=ais_hybrid"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Fitness routines to try this year", 
+        "sub-title": "Incorporating movement into your daily life.",
+        "post": [
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. "
+        ],
+        "quote": "The only bad workout is the one that didn’t happen.",
+        "category": "Lifestyle", 
+        "date": "October 5, 2021", 
+        "tags": [
+            "fitness",
+            "health"
+        ], 
+        "featured": "no",
+        "author": "Emily White", 
+        "image": [
+            "https://zoya.qodeinteractive.com/wp-content/uploads/2021/04/blog-img-76.jpg",
+            "https://zoya.qodeinteractive.com/wp-content/uploads/2021/04/blog-content-img-3.jpg", 
+            "https://img.freepik.com/free-photo/aerial-view-man-using-computer-laptop-wooden-table-workspace-concept_53876-20517.jpg?ga=GA1.1.108249198.1729259417&semt=ais_hybrid"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Exploring the art of photography", 
+        "sub-title": "Capturing moments and memories.",
+        "post": [
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. "
+        ],
+        "quote": "Photography is the story I fail to put into words.",
+        "category": "Inspiration", 
+        "date": "November 18, 2021", 
+        "tags": [
+            "DIY",
+            "travel"
+        ], 
+        "featured": "no",
+        "author": "Oliver Jones", 
+        "image": [
+            "https://zoya.qodeinteractive.com/wp-content/uploads/2021/03/blog-img-8.jpg",
+            "https://zoya.qodeinteractive.com/wp-content/uploads/2021/04/blog-content-img-3.jpg", 
+            "https://img.freepik.com/free-photo/aerial-view-man-using-computer-laptop-wooden-table-workspace-concept_53876-20517.jpg?ga=GA1.1.108249198.1729259417&semt=ais_hybrid"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Weekend getaways for relaxation", 
+        "sub-title": "Find peace and tranquility away from home.",
+       "post": [
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. "
+        ],
+        "quote": "Sometimes the most productive thing you can do is relax.",
+        "category": "Lifestyle", 
+        "date": "December 10, 2021", 
+        "tags": [
+            "makeup",
+            "art"
+        ], 
+        "featured": "no",
+        "author": "Sophie Clark", 
+        "image": [
+            "https://zoya.qodeinteractive.com/wp-content/uploads/2021/03/blog-img-8.jpg",
+            "https://zoya.qodeinteractive.com/wp-content/uploads/2021/04/blog-content-img-3.jpg", 
+            "https://img.freepik.com/free-photo/aerial-view-man-using-computer-laptop-wooden-table-workspace-concept_53876-20517.jpg?ga=GA1.1.108249198.1729259417&semt=ais_hybrid"
+        ]
+    },
+    {
+        "id": 11,
+        "title": "The art of mindfulness", 
+        "sub-title": "Incorporating mindfulness into daily life.",
+        "post": [
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. "
+        ],
+        "quote": "Mindfulness isn’t difficult, we just need to remember to do it.",
+        "category": "Technology", 
+        "date": "July 30, 2021", 
+        "tags": [
+            "lifestyle",
+            "travel"
+        ], 
+        "featured": "no",
+        "author": "David Lee", 
+        "image": [
+            "https://zoya.qodeinteractive.com/wp-content/uploads/2021/03/blog-img-10.jpg",
+            "https://zoya.qodeinteractive.com/wp-content/uploads/2021/04/blog-content-img-3.jpg", 
+            "https://img.freepik.com/free-photo/aerial-view-man-using-computer-laptop-wooden-table-workspace-concept_53876-20517.jpg?ga=GA1.1.108249198.1729259417&semt=ais_hybrid"
+        ]
+    }, 
+    {
+        "id": 12,
+        "title": "The art of mindfulness", 
+        "sub-title": "Incorporating mindfulness into daily life.",
+        "post": [
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. "
+        ],
+        "quote": "Mindfulness isn’t difficult, we just need to remember to do it.",
+        "category": "Beauty", 
+        "date": "July 30, 2021", 
+        "tags": [
+            "travel",
+            "decor"
+        ], 
+        "featured": "no",
+        "author": "David Lee", 
+        "image": [
+            "https://zoya.qodeinteractive.com/wp-content/uploads/2021/03/blog-img-10.jpg",
+            "https://zoya.qodeinteractive.com/wp-content/uploads/2021/04/blog-content-img-3.jpg", 
+            "https://img.freepik.com/free-photo/aerial-view-man-using-computer-laptop-wooden-table-workspace-concept_53876-20517.jpg?ga=GA1.1.108249198.1729259417&semt=ais_hybrid"
+        ]
+    }, 
+    {
+        "id": 13,
+        "title": "Fitness routines to try this year", 
+        "sub-title": "Incorporating movement into your daily life.",
+        "post": [
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
+            "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. "
+        ], 
+        "quote": "The only bad workout is the one that didn’t happen.",
+        "category": "Entertainment", 
+        "date": "October 5, 2021", 
+        "tags": [
+            "fashion",
+            "blog"
+        ], 
+        "featured": "yes",
+        "author": "Emily White", 
+        "image": [
+            "https://zoya.qodeinteractive.com/wp-content/uploads/2021/04/blog-img-76.jpg",
+            "https://zoya.qodeinteractive.com/wp-content/uploads/2021/04/blog-content-img-3.jpg", 
+            "https://img.freepik.com/free-photo/aerial-view-man-using-computer-laptop-wooden-table-workspace-concept_53876-20517.jpg?ga=GA1.1.108249198.1729259417&semt=ais_hybrid"
+        ]
+    }
+]

@@ -1,14 +1,25 @@
 {
+  "homepage": "",
   "name": "zoya-blog",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@splidejs/react-splide": "^0.7.12",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "leaflet": "^1.9.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.27.0",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.9.0",
+    "react-select": "^5.8.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
