@@ -24,7 +24,7 @@ const Blogs = () => {
     const [selectedCategory, setSelectedCategory] = useState(selectedCategoryFromState);
     const [searchQuery, setSearchQuery] = useState("");
     const [selectedDateRange, setSelectedDateRange] = useState({ start: "", end: "" }); // New state for date range
-    const [selectedDate, setSelectedDate] = useState(selectedDateFromQuery); // New state for selected date from query
+    const [selectedDate] = useState(selectedDateFromQuery); // New state for selected date from query
 
     const blogsPerPage = 9;
 
