@@ -2,7 +2,6 @@
     {
         "id": 1,
         "title": "Ready for a getaway weekend", 
-        "sub-title": "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor.",
         "post": [
             "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
             "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
@@ -22,13 +21,13 @@
         "image": [
             "https://zoya.qodeinteractive.com/wp-content/uploads/2021/03/blog-img-8.jpg",
             "https://zoya.qodeinteractive.com/wp-content/uploads/2021/04/blog-content-img-3.jpg", 
-            "https://img.freepik.com/free-photo/aerial-view-man-using-computer-laptop-wooden-table-workspace-concept_53876-20517.jpg?ga=GA1.1.108249198.1729259417&semt=ais_hybrid"
+            "https://img.freepik.com/free-photo/aerial-view-man-using-computer-laptop-wooden-table-workspace-concept_53876-20517.jpg?ga=GA1.1.108249198.1729259417&semt=ais_hybrid",
+            "https://zoya.qodeinteractive.com/wp-content/uploads/2021/03/blog-img-8.jpg"
         ]
     }, 
     {
         "id": 2,
         "title": "Discovering hidden gems in the city", 
-       "sub-title": "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor.",
         "post": [
             "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
             "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
@@ -54,7 +53,6 @@
     {
         "id": 3,
         "title": "A journey through the mountains", 
-        "sub-title": "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor.",
         "post": [
             "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
             "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
@@ -80,7 +78,6 @@
     {
         "id": 4,
         "title": "10 tips for a balanced lifestyle", 
-       "sub-title": "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor.",
         "post": [
             "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
             "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
@@ -106,7 +103,6 @@
     {
         "id": 5,
         "title": "The art of mindfulness", 
-        "sub-title": "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor.",
         "post": [
             "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
             "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
@@ -132,7 +128,6 @@
     {
         "id": 6,
         "title": "Traveling on a budget", 
-        "sub-title": "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor.",
         "post": [
             "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
             "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
@@ -158,7 +153,6 @@
     {
         "id": 7,
         "title": "Cooking healthy at home", 
-       "sub-title": "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor.",
         "post": [
             "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
             "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
@@ -184,7 +178,6 @@
     {
         "id": 8,
         "title": "Fitness routines to try this year", 
-        "sub-title": "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor.",
         "post": [
             "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
             "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
@@ -210,7 +203,6 @@
     {
         "id": 9,
         "title": "Exploring the art of photography", 
-        "sub-title": "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor.",
         "post": [
             "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
             "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
@@ -236,7 +228,6 @@
     {
         "id": 10,
         "title": "Weekend getaways for relaxation", 
-        "sub-title": "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor.",
         "post": [
             "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
             "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
@@ -262,7 +253,6 @@
     {
         "id": 11,
         "title": "The art of mindfulness", 
-       "sub-title": "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor.",
         "post": [
             "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
             "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
@@ -288,7 +278,6 @@
     {
         "id": 12,
         "title": "The art of mindfulness", 
-        "sub-title": "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor.",
         "post": [
             "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
             "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
@@ -314,7 +303,6 @@
     {
         "id": 13,
         "title": "Fitness routines to try this year", 
-        "sub-title": "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor.",
         "post": [
             "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",
             "Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean commodo ligula eget dolor. Cum socis Theme sed natoque ut penatibus. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies dictum felis eu pede sit. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, amet et adipiscing sem neque nulla ipsum. Etiam ultricies nisi vel augue blandit vel, luctus pulvinar. Nullam quis ante. Etiam sit amet orci eget eros.",

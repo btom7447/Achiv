@@ -649,12 +649,6 @@ footer .ft-two label .news-icon {
   color: var(--highlight);
 }
 
-
-/* * {
-  outline: red solid 1px;
-} */
-
-
 /* BLOG BLOCKS */
 .blog-blocks {
   display: grid; 
@@ -1677,6 +1671,198 @@ footer .ft-two label .news-icon {
   font-weight: normal;
   font-family: "Cormorant Garamond", Arial, Helvetica, sans-serif;
 }
-/* * {
-  outline: red solid 1px;
-}  */
+
+/* ADMIN (PAGE) */
+.admin-back {
+  padding: 30px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  color: var(--black);
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: left;
+}
+.admin-dashboard {
+  width: 100%;
+  padding: 50px;
+  padding-top: 0px !important;
+}
+.admin-dashboard h1 {
+  font-family: "Cormorant Garamond", Arial, Helvetica, sans-serif;
+  color: var(--black);
+  font-size: 50px;
+  line-height: 1.08em;
+  font-weight: 500;
+  letter-spacing: -.01em;
+  margin: 10px auto;
+}
+.admin-dashboard p {
+  font-size: 20px;
+  font-family: "Cormorant Garamond", Arial, Helvetica, sans-serif;
+  line-height: 1.12em;
+  font-weight: 500;
+  letter-spacing: .01em;
+  text-align: left;
+  color: var(--gray); 
+}
+.admin-dashboard .admin-links {
+  width: 100%;
+  list-style-type: none;
+  margin: 30px auto;
+}
+.admin-dashboard .admin-links li {
+  padding: 10px 0px;
+  color: var(--black);
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: left;
+  cursor: pointer;
+}
+.admin-dashboard .admin-links li a:hover {
+  color: var(--highlight);
+}
+
+/* EDIT BLOG POST */
+.edit-blog-card {
+  padding: 50px;
+  padding-top: 0px !important;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.editable-fields {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px; 
+  width: 100%;
+  margin: 20px auto; 
+}
+.edit-blog-card label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 19px;
+  font-family: "Cormorant Garamond", Arial, Helvetica, sans-serif;
+  line-height: 1.12em;
+  font-weight: 600;
+  letter-spacing: .01em;
+  text-align: left;
+  color: var(--black);
+}
+.editable-fields input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  color: var(--gray);
+  outline: none;
+  border: 1px solid var(--black);
+  background-color: var(--white);
+  font-family: "Montserrat", sans-serif; 
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.editable-fields label.text {
+  grid-column: 1 / -1; 
+
+}
+.editable-fields textarea {
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+  color: var(--gray);
+  outline: none;
+  border: 1px solid var(--black);
+  background-color: var(--white);
+  font-family: "Montserrat", sans-serif; 
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.edit-blog-card button {
+  grid-column: 1 / -1; 
+  border: none;
+  cursor: pointer;
+  padding: 15px 30px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--white);
+  background-color: var(--black);
+  justify-self: flex-start;
+  align-self: flex-start;
+}
+.edit-blog-card button:hover {
+  background-color: var(--gray);
+}
+
+/* IMAGE SECTION */
+.image-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.image-section h4 {
+  font-size: 19px;
+  font-family: "Cormorant Garamond", Arial, Helvetica, sans-serif;
+  line-height: 1.12em;
+  font-weight: 600;
+  letter-spacing: .01em;
+  text-align: left;
+  color: var(--black);
+  margin-bottom: 20px;
+}
+.image-section .image-gallery {
+  width: 100%;
+  display: flex;
+  overflow-x: auto; 
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.image-section .image-gallery .image-item {
+  position: relative;
+  display: inline-block;
+}
+.image-section .image-gallery .image-item img {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+.image-section .image-gallery .image-item .delete-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 30px;
+  padding: 5px 15px;
+  color: var(--white);
+  background-color: var(--sec-text);
+}
+
+
+ 

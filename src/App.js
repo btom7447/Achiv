@@ -12,6 +12,8 @@ import ContactPage from "./Pages/ContactPage";
 import ScrollToTop from "./Components/ScrollToTop";
 import AdminPost from "./Pages/AdminPost";
 import AdminDashboard from "./Pages/AdminDashboard";
+import AdminBlog from "./Pages/AdminBlog";
+import EditBlogCard from "./Components/EditBlogCard";
 
 const App = () => {
   const [showSignup, setShowSignup] = useState(false);
@@ -46,6 +48,9 @@ const App = () => {
           
           {/* Admin Routes under /admin subdirectory */}
           <Route path="/admin" element={<AdminDashboard />} />
+          <Route path="/admin/blogs" element={<AdminBlog />} />
+          <Route path="/admin/blog-post/:title" element={<EditBlogCard />} />
+
           <Route path="/admin/posts" element={<AdminPost />} />
         </Routes>
         <Utilities />
