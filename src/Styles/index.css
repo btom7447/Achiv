@@ -88,6 +88,25 @@ a {
   animation: fadeOut 0.5s ease-in;
 }
 
+/* Customizing AOS animations for BlogCards and QuoteCards */
+
+[data-aos="slide-left"],
+[data-aos="slide-right"] {
+  opacity: 0;
+  transform: translateX(5px); 
+  transition: all 0.8s ease-out; 
+}
+
+[data-aos="slide-left"].aos-animate {
+  opacity: 1; 
+  transform: translateX(0);
+}
+
+[data-aos="slide-right"].aos-animate {
+  opacity: 1;
+  transform: translateX(0); 
+}
+
 
 ::selection {
   background-color: var(--highlight);

@@ -5,6 +5,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { Link, useLocation } from "react-router-dom";
 import BlogsFilter from "../Components/BlogsFilter";
+import AOS from 'aos'; // AOS Import
+import 'aos/dist/aos.css'; // AOS CSS
 
 const Blogs = () => {
     const location = useLocation();
@@ -25,6 +27,15 @@ const Blogs = () => {
     const [selectedDate, setSelectedDate] = useState(selectedDateFromQuery); // New state for selected date from query
 
     const blogsPerPage = 9;
+
+    // Initialize AOS inside a useEffect to ensure animations load
+    useEffect(() => {
+        AOS.init({
+            duration: 1000, // Animation duration (adjust as necessary)
+            easing: 'ease-in-out', // Easing effect
+            once: true, // Animation will only happen once
+        });
+    }, []);
 
     // Filter blogs by selected category if it exists
     useEffect(() => {
@@ -86,12 +97,12 @@ const Blogs = () => {
 
             {/* Blog grid display */}
             <div className="blogs-grid">
-                {currentBlogs.map((blog) => (
+                {currentBlogs.map((blog, index) => (
                     <Link
                         key={blog.id}
                         to={`/blog-post/${blog.title.toLowerCase().replace(/\s+/g, '-')}`}
                     >
-                        <BlogGridCard blog={blog} />
+                        <BlogGridCard blog={blog} dataAos="fade-in" dataAosDelay={index * 100} />
                     </Link>
                 ))}
             </div>

@@ -1,15 +1,14 @@
+import React from "react";
+import { Link } from 'react-router-dom';
 import { faFacebookF, faInstagram, faLinkedinIn, faTwitter, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
-import { Link } from 'react-router-dom';
 
-const BlogCard = ({ blog }) => {
-    // Function to slugify the title (replace spaces with dashes)
+const BlogCard = ({ blog, dataAos }) => {
     const slugifyTitle = (title) => title.toLowerCase().replace(/\s+/g, '-');
 
     return (
-        <div className="blog-card">
+        <div className="blog-card" data-aos={dataAos}> {/* AOS animation attribute */}
             <div className="category">
                 <span></span>
                 <p>{blog.category}</p>

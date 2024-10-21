@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';  
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LandingPage from './Pages/LandingPage';
 import Footer from './Components/Footer';
@@ -10,18 +12,19 @@ import Blogs from './Pages/Blogs';
 import Signup from './Components/Signup';
 import ContactPage from "./Pages/ContactPage";
 import ScrollToTop from "./Components/ScrollToTop";
+import AdminPost from "./Pages/AdminPost";
+import AdminDashboard from "./Pages/AdminDashboard";
 
 const App = () => {
   const [showSignup, setShowSignup] = useState(false);
   const [preventPopup, setPreventPopup] = useState(false);
 
     useEffect(() => {
-        // Set a timer to show the popup after a specified time (e.g., 10 seconds)
         const timer = setTimeout(() => {
             if (!preventPopup) {
                 setShowSignup(true);
             }
-        }, 60000); // Adjust the time as needed (10000ms = 10 seconds)
+        }, 60000); // Show signup popup after 60 seconds
 
         return () => clearTimeout(timer);
     }, [preventPopup]);
@@ -29,18 +32,23 @@ const App = () => {
     const handleClose = () => {
       setShowSignup(false);
     };
- 
+
   return (
     <div className="app">
        <Router>
         <ScrollToTop />
         <Header />
         <Routes>  
+          {/* Public Routes */}
           <Route path="/" element={<LandingPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/blog" element={<Blogs />} />
-          <Route path="/blog-post/:slug" element={<BlogPost />} />
+          <Route path="/blog-post/:title" element={<BlogPost />} />
+          
+          {/* Admin Routes under /admin subdirectory */}
+          <Route path="/admin" element={<AdminDashboard />} />
+          <Route path="/admin/posts" element={<AdminPost />} />
         </Routes>
         <Utilities />
         <Footer />

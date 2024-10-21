@@ -5,7 +5,6 @@ import NewsLetterCard from "./NewsLetterCard";
 import PopularPostCard from "./PopularPostCard";
 import TagsCard from "./TagsCards";
 import FollowUsCard from "./FollowUsCard";
-import ArchiveCard from "./ArchiveCard";
 
 const BlockRight = () => {
     return (
@@ -15,7 +14,6 @@ const BlockRight = () => {
             <PopularPostCard />
             <NewsLetterCard />
             <TagsCard />
-            <ArchiveCard />
             <FollowUsCard />
         </div>
     )

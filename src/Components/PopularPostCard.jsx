@@ -9,7 +9,7 @@ const PopularPostCard = () => {
         const getFeaturedRandomPosts = (data) => {
             const featuredBlogs = data.filter(blog => blog.featured === "yes"); // Filter for featured blogs
             const shuffled = featuredBlogs.sort(() => 0.5 - Math.random()); // Shuffle the featured blogs
-            return shuffled.slice(0, 5); // Get first 3 items
+            return shuffled.slice(0, 3); // Get first 3 items
         };
 
         // Set the random posts from blogData
