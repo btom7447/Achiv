@@ -1,5 +1,4 @@
-@media screen and (max-width: 450px) { 
-
+@media (min-width: 451px) and (max-width: 550px) { 
     :root {
         --black: #000;
         --white: #fff;
@@ -106,14 +105,13 @@
         position: absolute;
         top: 10px;
     }
-
     footer {
         padding: 50px 30px;
     }
     footer .footer-top .ft-two p {
         margin-top: 10px;
     }
-    
+
     /* BLOG BLOCKS */
     .blog-blocks {
         display: grid; 
@@ -236,8 +234,84 @@
         margin-bottom: 30px;
     }
 
-    
     /* * {
         outline: red solid 1px;
     } */
+}
+
+/* TABLET LARGE */
+@media (min-width: 550px) and (max-width: 900px) { 
+
+    /* FOOTER  */
+    .footer-gallery {
+        margin-top: 30px;
+        position: relative;
+        padding: 50px 10px 10px 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%; 
+        justify-content: center;
+        align-items: center;
+        background-color: var(--white);
+    }
+    .gallery-img {
+        width: 100% !important;
+        height: 30rem;
+    }
+    .gallery-caption {
+        position: absolute;
+        top: 10px;
+    }
+
+    /* HOME CAROUSEL */
+    .home-carousel {
+        width: 100%;
+        height: 60dvh; 
+    }
+    .home-carousel .splide__track {
+        height: 60dvh;
+    }
+    .home-carousel .slide-caption {
+        width: 70%;
+        top: 10dvh;
+    }
+
+    /* BLOG BLOCKS */
+    .blog-blocks {
+        display: grid; 
+        grid-template-columns: 1fr; 
+        gap: 30px; 
+        padding: 30px; 
+        margin-top: 0px;
+    }
+    .blogs-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 30px;  
+        margin-bottom: 20px;
+    }
+    .blogs-grid .blog-card {
+        margin-bottom: 30px;
+    }
+    .blogs-container {
+        padding: 50px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .blogs-container .blogs-filter {
+        margin-bottom: 30px;
+        flex-direction: column;
+        gap: 10px 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .blogs-container .blogs-filter .blog-input {
+        width: 70%;
+    }
+    /* REACT SELECT */
+    .blog-select {
+        width: 70%;
+    }
 }

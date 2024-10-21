@@ -547,7 +547,7 @@ footer .ft-two label .news-icon {
   transform: translate(-50%, -50%); 
   background: var(--white);
   max-width: 600px; 
-  width: 100%; 
+  width: 80%; 
 }
 .signup-container .signup img {
   width: 100%; 
