@@ -1,17 +1,38 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import '@splidejs/splide/dist/css/splide.min.css'; 
-import blogData from '../Data/blogData.json'; 
+import Airtable from 'airtable';
+
+const base = new Airtable({ apiKey: process.env.REACT_APP_AIRTABLE_API_KEY }).base(process.env.REACT_APP_AIRTABLE_BASE_ID);
+
 
 const HomeCarousel = () => {
-    // Function to sort blog posts by date and get the most recent 5
-    const getRecentBlogs = () => {
-        // Convert date strings to Date objects for sorting
-        const sortedBlogs = [...blogData].sort((a, b) => new Date(b.date) - new Date(a.date));
-        return sortedBlogs.slice(0, 5);
-    };
+    const [filteredBlogs, setFilteredBlogs] = useState([]);
 
-    const recentBlogs = getRecentBlogs();
+    useEffect(() => {
+        base(process.env.REACT_APP_AIRTABLE_TABLE_NAME)
+            .select({ view: "Grid view" })
+            .all()
+            .then(records => {
+                const fetchedBlogs = records
+                    .map(record => ({
+                        id: record.id,
+                        title: record.fields.title,
+                        author: record.fields.author_name,
+                        category: record.fields.category,
+                        tags: record.fields.tags || [],
+                        date: record.fields.date,
+                        carousel: record.fields.carousel,
+                        image: record.fields.images ? record.fields.images.map(img => img.url) : []
+                    }))
+                    .filter(blog => blog.carousel === "true");
+
+                setFilteredBlogs(fetchedBlogs);
+            })
+            .catch(err => {
+                console.error("Error fetching blogs:", err);
+            });
+    }, []);
 
     return (
         <Splide 
@@ -28,11 +49,11 @@ const HomeCarousel = () => {
                 speed: 1000, 
                 easing: 'ease',
             }}>
-            {recentBlogs.map((blog) => (
+            {filteredBlogs.map((blog) => (
                 <SplideSlide key={blog.id}>
                     <div className="blog-carousel-slide">
                         <img src={blog.image[0]} alt={blog.title} />
-                        <div className="slide-caption" >
+                        <div className="slide-caption">
                             <div className="category">
                                 <span></span>
                                 <p>{blog.category}</p>

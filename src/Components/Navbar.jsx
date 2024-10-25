@@ -68,6 +68,16 @@ const Navbar = () => {
         </li>
         <li className="nav-item">
           <NavLink 
+            to="/gallery" 
+            className="nav-links" 
+            activeclassname="active" 
+            onClick={() => setIsOpen(false)}
+          >
+            Gallery
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink 
             to="/contact" 
             className="nav-links" 
             activeclassname="active" 

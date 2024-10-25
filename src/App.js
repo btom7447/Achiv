@@ -10,10 +10,13 @@ import Blogs from './Pages/Blogs';
 import Signup from './Components/Signup';
 import ContactPage from "./Pages/ContactPage";
 import ScrollToTop from "./Components/ScrollToTop";
-import AdminPost from "./Pages/AdminPost";
 import AdminDashboard from "./Pages/AdminDashboard";
 import AdminBlog from "./Pages/AdminBlog";
-import EditBlogCard from "./Components/EditBlogCard";
+// import EditBlogCard from "./Components/EditBlogCard"; 
+import AdminGallery from "./Pages/AdminGallery";
+import AdminProfile from "./Pages/AdminProfile";
+import NewBlogPost from "./Pages/NewBlogPost";
+import GalleryPage from "./Pages/GalleryPage";
 
 const App = () => {
   const [showSignup, setShowSignup] = useState(false);
@@ -45,13 +48,18 @@ const App = () => {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/blog" element={<Blogs />} />
           <Route path="/blog-post/:title" element={<BlogPost />} />
+          <Route path="/gallery" element={<GalleryPage />} />
+
           
           {/* Admin Routes under /admin subdirectory */}
           <Route path="/admin" element={<AdminDashboard />} />
           <Route path="/admin/blogs" element={<AdminBlog />} />
-          <Route path="/admin/blog-post/:title" element={<EditBlogCard />} />
+          {/* <Route path="/admin/blog-post/:title" element={<EditBlogCard />} /> */}
+          <Route path="/admin/blog-post/new" element={<NewBlogPost />} />
+          <Route path="/admin/gallery" element={<AdminGallery />} />
+          <Route path="/admin/profile" element={<AdminProfile />} />
 
-          <Route path="/admin/posts" element={<AdminPost />} />
+
         </Routes>
         <Utilities />
         <Footer />

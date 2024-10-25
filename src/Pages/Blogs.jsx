@@ -1,71 +1,95 @@
 import React, { useState, useEffect } from "react";
 import BlogGridCard from "../Components/BlogGridCard";
-import blogData from "../Data/blogData.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { Link, useLocation } from "react-router-dom";
 import BlogsFilter from "../Components/BlogsFilter";
-import AOS from 'aos'; // AOS Import
-import 'aos/dist/aos.css'; // AOS CSS
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Airtable from 'airtable';
+import PuffLoader from 'react-spinners/PuffLoader';
 
 const Blogs = () => {
+    const base = new Airtable({ apiKey: process.env.REACT_APP_AIRTABLE_API_KEY }).base(process.env.REACT_APP_AIRTABLE_BASE_ID);
     const location = useLocation();
 
-    // Extract the selected date from the query string
     const queryParams = new URLSearchParams(location.search);
     const selectedDateFromQuery = queryParams.get("date") || null;
 
     const selectedCategoryFromState = location.state?.selectedCategory || null;
-    const selectedTagsFromState = location.state?.selectedTags || []; // Get selected tags from state
+    const selectedTagsFromState = location.state?.selectedTags || [];
 
     const [currentPage, setCurrentPage] = useState(1);
-    const [filteredBlogs, setFilteredBlogs] = useState(blogData);
-    const [selectedTags, setSelectedTags] = useState(selectedTagsFromState); // Initialize selectedTags from state
+    const [filteredBlogs, setFilteredBlogs] = useState([]);
+    const [allBlogs, setAllBlogs] = useState([]); // Store all blogs initially
+    const [selectedTags, setSelectedTags] = useState(selectedTagsFromState);
     const [selectedCategory, setSelectedCategory] = useState(selectedCategoryFromState);
     const [searchQuery, setSearchQuery] = useState("");
-    const [selectedDateRange, setSelectedDateRange] = useState({ start: "", end: "" }); // New state for date range
-    const [selectedDate] = useState(selectedDateFromQuery); // New state for selected date from query
+    const [selectedDateRange, setSelectedDateRange] = useState({ start: "", end: "" });
+    const [selectedDate] = useState(selectedDateFromQuery);
+    const [loading, setLoading] = useState(true);
 
     const blogsPerPage = 9;
 
-    // Initialize AOS inside a useEffect to ensure animations load
     useEffect(() => {
         AOS.init({
-            duration: 1000, // Animation duration (adjust as necessary)
-            easing: 'ease-in-out', // Easing effect
-            once: true, // Animation will only happen once
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true,
         });
     }, []);
 
-    // Filter blogs by selected category if it exists
+    // Set selectedCategory if passed from navigation state
     useEffect(() => {
         if (selectedCategoryFromState) {
             setSelectedCategory({ value: selectedCategoryFromState, label: selectedCategoryFromState });
         }
     }, [selectedCategoryFromState]);
 
+    // Fetch all blogs on initial load
     useEffect(() => {
-        const filtered = blogData.filter((blog) => {
-            // Check tags
-            const tagMatch = !selectedTags.length || selectedTags.every((tag) => blog.tags.includes(tag.value));
+        setLoading(true);
+        base(process.env.REACT_APP_AIRTABLE_TABLE_NAME)
+            .select({ view: "Grid view" })
+            .all()
+            .then(records => {
+                const fetchedBlogs = records.map(record => ({
+                    id: record.id,
+                    title: record.fields.title,
+                    author: record.fields.author_name,
+                    category: record.fields.category,
+                    tags: record.fields.tags || [],
+                    date: record.fields.date,
+                    content: record.fields.content,
+                    image: record.fields.images ? record.fields.images.map(img => img.url) : [],
+                }));
+                
+                setAllBlogs(fetchedBlogs); // Save all blogs initially
+                setFilteredBlogs(fetchedBlogs); // Set as filtered to display on load
+                setLoading(false);
+            })
+            .catch(err => {
+                console.error("Error fetching blogs:", err);
+                setLoading(false);
+            });
+    }, []);
 
-            // Check category
+    // Filter blogs based on tags, category, and other filters
+    useEffect(() => {
+        const filtered = allBlogs.filter((blog) => {
+            const tagMatch = !selectedTags.length || selectedTags.every((tag) => blog.tags.includes(tag.value));
             const categoryMatch = selectedCategory ? blog.category === selectedCategory.value : true;
 
-            // Check name (author or title), case-insensitive match
             const searchQueryMatch = searchQuery
-                ? blog.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                  blog.author.toLowerCase().includes(searchQuery.toLowerCase())
+                ? (typeof blog.title === 'string' && blog.title.toLowerCase().includes(searchQuery.toLowerCase())) ||
+                  (typeof blog.author === 'string' && blog.author.toLowerCase().includes(searchQuery.toLowerCase()))
                 : true;
 
-            // Check date range
-            const blogDate = new Date(blog.date); // Convert blog date to a Date object
+            const blogDate = new Date(blog.date);
             const startDate = selectedDateRange.start ? new Date(selectedDateRange.start) : null;
             const endDate = selectedDateRange.end ? new Date(selectedDateRange.end) : null;
-
             const dateMatch = (!startDate || blogDate >= startDate) && (!endDate || blogDate <= endDate);
 
-            // Check if blog date matches the selected date (from query param)
             const blogMonthYear = blogDate.toLocaleString("default", { month: "long", year: "numeric" });
             const selectedDateMatch = selectedDate ? blogMonthYear === selectedDate : true;
 
@@ -73,50 +97,58 @@ const Blogs = () => {
         });
 
         setFilteredBlogs(filtered);
-        setCurrentPage(1); // Reset to first page when filtering
-    }, [selectedTags, selectedCategory, searchQuery, selectedDateRange, selectedDate]); // Run filter when tags, category, search query, date range, or selected date changes
+        setCurrentPage(1);
+    }, [allBlogs, selectedTags, selectedCategory, searchQuery, selectedDateRange, selectedDate]);
 
     const currentBlogs = filteredBlogs.slice((currentPage - 1) * blogsPerPage, currentPage * blogsPerPage);
     const totalPages = Math.ceil(filteredBlogs.length / blogsPerPage);
 
     return (
         <div className="blogs-container">
-            {/* Blog filter with current state values */}
             <BlogsFilter
-                onFilterChange={({ tags, category, searchQuery, dateRange }) => {
+                blogData={filteredBlogs}
+                onFilterChange={({ tags, category, searchQuery }) => {
                     setSelectedTags(tags || []);
                     setSelectedCategory(category || null);
                     setSearchQuery(searchQuery || "");
-                    setSelectedDateRange(dateRange || { start: "", end: "" }); // Handle date range
                 }}
                 initialTags={selectedTags}
                 initialCategory={selectedCategory}
                 initialSearchQuery={searchQuery}
-                initialDateRange={selectedDateRange} // Pass initial date range
             />
 
-            {/* Blog grid display */}
-            <div className="blogs-grid">
-                {currentBlogs.map((blog, index) => (
-                    <Link
-                        key={blog.id}
-                        to={`/blog-post/${blog.title.toLowerCase().replace(/\s+/g, '-')}`}
-                    >
-                        <BlogGridCard blog={blog} dataAos="fade-in" dataAosDelay={index * 100} />
-                    </Link>
-                ))}
-            </div>
+            {loading ? (
+                <div className="loading-container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+                    <PuffLoader size={80} color="#cfac9f" />
+                </div>
+            ) : (
+                <>
+                    <div className="blogs-grid">
+                        {currentBlogs.length > 0 ? (
+                            currentBlogs.map((blog, index) => (
+                                <Link
+                                    key={blog.id}
+                                    to={`/blog-post/${blog.title ? blog.title.toLowerCase().replace(/\s+/g, '-') : ''}`}
+                                >
+                                    <BlogGridCard blog={blog} dataAos="fade-in" dataAosDelay={index * 100} />
+                                </Link>
+                            ))
+                        ) : (
+                            <div>No posts found.</div>
+                        )}
+                    </div>
 
-            {/* Pagination controls */}
-            <div className="pagination">
-                <button onClick={() => setCurrentPage(currentPage - 1)} disabled={currentPage === 1}>
-                    <FontAwesomeIcon icon={faChevronLeft} />
-                </button>
-                <span>Page {currentPage} of {totalPages}</span>
-                <button onClick={() => setCurrentPage(currentPage + 1)} disabled={currentPage === totalPages}>
-                    <FontAwesomeIcon icon={faChevronRight} />
-                </button>
-            </div>
+                    <div className="pagination">
+                        <button onClick={() => setCurrentPage(currentPage - 1)} disabled={currentPage === 1}>
+                            <FontAwesomeIcon icon={faChevronLeft} />
+                        </button>
+                        <span>Page {currentPage} of {totalPages}</span>
+                        <button onClick={() => setCurrentPage(currentPage + 1)} disabled={currentPage === totalPages}>
+                            <FontAwesomeIcon icon={faChevronRight} />
+                        </button>
+                    </div>
+                </>
+            )}
         </div>
     );
 };

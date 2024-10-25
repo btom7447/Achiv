@@ -14,20 +14,14 @@ const BlogArticle = ({ blog }) => {
                 {blog.image && blog.image.length > 0 && (
                     <img src={blog.image[0]} alt={blog.title} />
                 )}
-                {blog.post && blog.post.length > 0 && (
-                    <p className="first-paragraph">{blog.post[0]}</p>
-                )}
+                <p className="first-paragraph">{blog.first_paragraph}</p>
                 <div className="continuation">
                     {blog.image && blog.image.length > 0 && (
                         <img src={blog.image[1]} alt={blog.title} />
                     )}
-                    {blog.post && blog.post.length > 0 && (
-                        <p>{blog.post[1]}</p>
-                    )}
+                    <p>{blog.second_paragraph}</p>
                     <h3>{blog.quote}</h3>
-                    {blog.post && blog.post.length > 0 && (
-                        <p>{blog.post[2]}</p>
-                    )}
+                    <p>{blog.third_paragraph}</p>
                 </div>
                 <div className="poster-cont">
                     {blog.image && blog.image.length > 0 && (

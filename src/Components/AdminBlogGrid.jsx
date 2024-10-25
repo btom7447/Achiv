@@ -3,10 +3,10 @@ import blogData from "../Data/blogData.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { Link, useLocation } from "react-router-dom";
-import BlogsFilter from "./BlogsFilter";
-import AOS from 'aos'; // AOS Import
-import 'aos/dist/aos.css'; // AOS CSS
+import AOS from 'aos'; 
+import 'aos/dist/aos.css'; 
 import BlogGridCard from "./BlogGridCard";
+import AdminBlogFilter from "./AdminBlogFilter";
 
 const AdminBlogGrid = () => {
     const location = useLocation();
@@ -74,7 +74,7 @@ const AdminBlogGrid = () => {
 
     return (
         <div className="blogs-container">
-            <BlogsFilter
+            <AdminBlogFilter
                 onFilterChange={({ tags, category, searchQuery, dateRange }) => {
                     setSelectedTags(tags || []);
                     setSelectedCategory(category || null);

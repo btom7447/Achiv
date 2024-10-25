@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Select from 'react-select';
 import blogData from '../Data/blogData.json';
+import { Link } from 'react-router-dom';
 
-const BlogsFilter = ({ blogData, onFilterChange, initialTags, initialCategory, initialSearchQuery }) => {
+const AdminBlogFilter = ({ onFilterChange, initialTags, initialCategory, initialSearchQuery }) => {
     // Extract unique values for tags and categories
     const uniqueTags = [...new Set(blogData.flatMap(blog => blog.tags))];
     const uniqueCategories = [...new Set(blogData.map(blog => blog.category))];
@@ -90,8 +91,12 @@ const BlogsFilter = ({ blogData, onFilterChange, initialTags, initialCategory, i
                 value={searchQuery}
                 onChange={handleSearchQueryChange} // Call the handler on input change
             />
+
+            <Link to="/admin/blog-post/new">
+                <button type="button">Create Blog Post</button>
+            </Link>
         </div>
     );
 };
 
-export default BlogsFilter;
+export default AdminBlogFilter;

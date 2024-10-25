@@ -3,20 +3,20 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState, useEffect } from "react";
 
 const Utilities = () => {
-    const [isLightMode, setIsLightMode] = useState(() => {
+    const [isDarkMode, setIsDarkMode] = useState(() => {
         const savedTheme = localStorage.getItem("theme");
         return savedTheme === "light"; 
     });
 
     const toggleTheme = () => {
-        setIsLightMode(prevMode => !prevMode);
+        setIsDarkMode(prevMode => !prevMode);
     };
 
     useEffect(() => {
-        document.body.classList.toggle("dark-mode", isLightMode);
-        document.body.classList.toggle("light-mode", !isLightMode);
-        localStorage.setItem("theme", isLightMode ? "light" : "dark");
-    }, [isLightMode]);
+        document.body.classList.toggle("dark-mode", isDarkMode);
+        document.body.classList.toggle("light-mode", !isDarkMode);
+        localStorage.setItem("theme", isDarkMode ? "light" : "dark");
+    }, [isDarkMode]);
 
     // Scroll to top function
     const scrollToTop = () => {
@@ -38,7 +38,7 @@ const Utilities = () => {
             <input 
                 type="checkbox" 
                 className="l" 
-                checked={isLightMode} 
+                checked={isDarkMode} 
                 onChange={toggleTheme} 
             />
         </div>

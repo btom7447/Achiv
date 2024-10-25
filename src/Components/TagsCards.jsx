@@ -1,23 +1,21 @@
 import React from "react";
-import blogData from "../Data/blogData.json";
 import { useNavigate } from "react-router-dom";
 
-const TagsCard = () => {
-    // Flatten the tags array, normalize case, and remove duplicates
+const TagsCard = ({ blogs }) => {
+    // Flatten and extract unique tags
     const uniqueTags = Array.from(
-        new Set(blogData.flatMap(blog => blog.tags.map(tag => tag.toLowerCase())))
+        new Set(blogs.flatMap(blog => blog.tags.map(tag => tag.toLowerCase())))
     ).sort();
 
-    const navigate = useNavigate(); // Hook for navigation
+    const navigate = useNavigate();
 
-    // Function to handle click and navigate to Blogs page with category and tags
     const handleTagClick = (tag) => {
         navigate("/blog", { 
             state: { 
-                selectedCategory: null, // Pass null or the category if needed
-                selectedTags: [{ value: tag, label: tag }] // Pass selected tag here
-            } 
-        }); 
+                selectedCategory: null, 
+                selectedTags: [{ value: tag, label: tag }]
+            }
+        });
     };
 
     return (

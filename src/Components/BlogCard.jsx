@@ -19,9 +19,7 @@ const BlogCard = ({ blog, dataAos }) => {
             {blog.image && blog.image.length > 0 && (
                 <img src={blog.image[0]} alt={blog.title} />
             )}
-            {blog.post && blog.post.length > 0 && (
-                <p>{blog.post[0]}</p>
-            )}
+            <p>{blog.first_paragraph}</p>
             <div className="blog-buttons">
                 {/* Link to blog post using the slugified title */}
                 <Link to={`/blog-post/${slugifyTitle(blog.title)}`}>

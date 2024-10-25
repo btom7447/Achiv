@@ -1,57 +1,34 @@
-import { useLocation } from "react-router-dom";
-import React, { useState, useEffect } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import Select from "react-select";
-import blogData from "../Data/blogData.json"; // Importing JSON file
 
-const EditBlogCard = () => {
-    const location = useLocation();
-    const { blog } = location.state;
-
+const NewBlogPost = () => {
     // Local state to manage the editable fields
-    const [title, setTitle] = useState(blog.title);
-    const [author, setAuthor] = useState(blog.author);
-    const [category, setCategory] = useState({ label: blog.category, value: blog.category });
-    const [tags, setTags] = useState(blog.tags.map(tag => ({ label: tag, value: tag })));
-    const [date, setDate] = useState(blog.date);
-    const [content, setContent] = useState(blog.post.join('\n'));
-    const [images, setImages] = useState(blog.image);
+    const [title, setTitle] = useState("");
+    const [author, setAuthor] = useState("");
+    const [category, setCategory] = useState(null);
+    const [tags, setTags] = useState([]);
+    const [date, setDate] = useState("");
+    const [content, setContent] = useState("");
+    const [images, setImages] = useState([]);
 
-    const [categoryOptions, setCategoryOptions] = useState([]);
-    const [tagOptions, setTagOptions] = useState([]);
+    // Options for categories and tags (can be dynamic later)
+    const categoryOptions = [
+        { label: "Travel", value: "Travel" },
+        { label: "Lifestyle", value: "Lifestyle" },
+        { label: "Inspiration", value: "Inspiration" },
+    ];
 
-    // Load categories and tags from JSON file
-    useEffect(() => {
-        // Extract unique categories
-        const categories = [...new Set(blogData.map(blog => blog.category))].map(cat => ({
-            label: cat,
-            value: cat,
-        }));
-
-        // Extract unique tags
-        const allTags = blogData.flatMap(blog => blog.tags);
-        const uniqueTags = [...new Set(allTags)].map(tag => ({
-            label: tag,
-            value: tag,
-        }));
-
-        setCategoryOptions(categories);
-        setTagOptions(uniqueTags);
-    }, []);
+    const tagOptions = [
+        { label: "Adventure", value: "Adventure" },
+        { label: "Relaxation", value: "Relaxation" },
+        { label: "Nature", value: "Nature" },
+    ];
 
     const handleSave = () => {
-        // console.log({
-        //     title,
-        //     author,
-        //     category: category.value,
-        //     tags: tags.map(tag => tag.value),
-        //     date,
-        //     content: content.split('\n'),
-        //     images,
-        // });
-        // API call or data saving logic goes here
+        // API call or data saving logic will go here
     };
 
     const handleImageDelete = (index) => {
@@ -83,7 +60,7 @@ const EditBlogCard = () => {
                             >
                                 &times;
                             </button>
-                            <img src={img} alt={` ${index + 1}`} />
+                            <img src={img} alt={`Image ${index + 1}`} />
                         </div>
                     ))}
                 </div>
@@ -177,4 +154,4 @@ const EditBlogCard = () => {
     );
 };
 
-export default EditBlogCard;
+export default NewBlogPost;
