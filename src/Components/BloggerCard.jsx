@@ -31,7 +31,7 @@ const BloggerCard = () => {
     }, []);
 
     if (loading) return (
-        <div className="loader-container">
+        <div className="loader-container"  style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '30vh' }}>
             <PuffLoader size={80} color="#cfac9f" />        
         </div>
     );

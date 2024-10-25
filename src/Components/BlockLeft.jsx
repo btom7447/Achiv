@@ -76,7 +76,7 @@ const BlockLeft = () => {
     return (
         <div className="block-left">
             {loading ? (
-                <div className="loader-container">
+                <div className="loader-container"  style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
                     <PuffLoader color="#cfac9f" size={80} />
                 </div>
             ) : (

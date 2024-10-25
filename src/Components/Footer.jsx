@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import blogData from "../Data/blogData.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
-import FooterGallery from "./FooterGallery";
 
 const Footer = () => {
 
@@ -19,7 +18,6 @@ const Footer = () => {
 
     return (
         <>
-            <FooterGallery />
             <footer>
                 <div className="footer-top">
                     <div className="ft-one">

@@ -44,7 +44,7 @@ const PopularPostCard = () => {
         <div className="popular-post">
             <h4>Featured Posts</h4>
             {loading ? (
-                <div className="loader-container">
+                <div className="loader-container"  style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '30vh' }}>
                     <PuffLoader color="#cfac9f" size={80} />
                 </div>
             ) : (
