@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Select from 'react-select';
-import blogData from '../Data/blogData.json';
 
 const BlogsFilter = ({ blogData, onFilterChange, initialTags, initialCategory, initialSearchQuery }) => {
     // Extract unique values for tags and categories

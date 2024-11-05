@@ -30,7 +30,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="ft-two">
-                        <img src="https://zoya.qodeinteractive.com/wp-content/uploads/2021/04/footer-logo-img-01-300x81.png" alt="footer logo" />
+                        <img src={require('../Assets/Images/IMG_0909.PNG')} alt="footer logo" />
                         <p>The perfect place for telling & sharing all the stories that truly matter</p>
                         <label htmlFor="newsletter">
                             <input 

@@ -33,14 +33,14 @@
         align-items: center;
     }
     .hamb img {
-        width: 60%;
-        height: auto;
+        width: 80%;
+        height: 100px;
         object-fit: cover;
-        object-fit: top cover;
+        object-position: center;
     }
     .nav-menu {
         position: absolute;
-        top: 110px;
+        top: 150px;
         left: 0;
         width: 100%;
         display: none;
@@ -93,6 +93,12 @@
         margin-top: 10px;
     }
     
+    footer .footer-top .ft-two img {
+        width: 100%;
+        height: 120px;
+        object-fit: cover;
+        object-position: center;
+    }
     .signup-container .signup {
         position: relative; 
         top: 60%; 
@@ -251,6 +257,10 @@
     /* EDIT BLOG POST */
     .edit-blog-card {
         padding: 30px;
+    }
+    .edit-blog-card .new-image {
+        width: 100%;
+        max-width: 100%;
     }
     .editable-fields {
         grid-template-columns: 1fr;

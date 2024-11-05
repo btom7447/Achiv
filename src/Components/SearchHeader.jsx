@@ -20,7 +20,7 @@ const SearchHeader = () => {
                 />
             </div>
             <img
-                src="https://zoya.qodeinteractive.com/wp-content/uploads/2021/04/logo-main-img-01.png"
+                src={require('../Assets/Images/IMG_0910.PNG')}
                 alt="Zoya Logo"
                 className={`navbar-logo`}
             />

@@ -17,6 +17,7 @@ import AdminGallery from "./Pages/AdminGallery";
 import AdminProfile from "./Pages/AdminProfile";
 import NewBlogPost from "./Pages/NewBlogPost";
 import GalleryPage from "./Pages/GalleryPage";
+import AdminBlogPost from "./Pages/AdminBlogPost";
 
 const App = () => {
   const [showSignup, setShowSignup] = useState(false);
@@ -54,6 +55,8 @@ const App = () => {
           {/* Admin Routes under /admin subdirectory */}
           <Route path="/admin" element={<AdminDashboard />} />
           <Route path="/admin/blogs" element={<AdminBlog />} />
+          <Route path="/admin/blogs/:id" element={<AdminBlogPost />} />
+
           {/* <Route path="/admin/blog-post/:title" element={<EditBlogCard />} /> */}
           <Route path="/admin/blog-post/new" element={<NewBlogPost />} />
           <Route path="/admin/gallery" element={<AdminGallery />} />

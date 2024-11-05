@@ -26,8 +26,8 @@ const Navbar = () => {
     <nav className={`navbar ${isMobile ? 'mobile-dark-mode' : ''}`}>
       <div className='hamb'>
         <img
-          src="https://zoya.qodeinteractive.com/wp-content/uploads/2021/04/logo-main-img-01.png"
-          alt="Zoya Logo"
+            src={require('../Assets/Images/IMG_0910.PNG')}
+            alt="Archive Gallery Logo"
           className={`navbar-logo`}
         />
         <div className={`menu-icon ${isOpen ? 'active' : ''}`} onClick={handleToggle}>
