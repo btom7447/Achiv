@@ -1,6 +1,6 @@
-# Achiv CMS Blog
+# Achiv's Blog
 
-Achiv CMS Blog is a **content management system (CMS)** developed for the **Achiv brand**, leveraging **Strapi** for the backend API and **React** for the frontend. This project enables seamless content creation and management, providing an intuitive experience for both administrators and readers.
+Achiv's Blog is a **content management system (CMS)** developed for the **Achiv brand**, leveraging **Strapi** for the backend API and **React** for the frontend. This project enables seamless content creation and management, providing an intuitive experience for both administrators and readers.
 
 ## 🚀 Features
 - **Strapi-powered CMS** for easy content management
